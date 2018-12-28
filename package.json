@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/sebas5384/now-drupal/issues"
   },
-  "homepage": "https://github.com/sebas5384/now-drupal#readme"
+  "homepage": "https://github.com/sebas5384/now-drupal#readme",
+  "devDependencies": {
+    "eslint": "^5.11.1"
+  },
+  "dependencies": {
+    "php-bridge-extra": "^0.4.13-canary.0"
+  },
+  "peerDependencies": {
+    "@now/build-utils": "^0.4.31"
+  }
 }
