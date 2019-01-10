@@ -1,6 +1,6 @@
 {
   "name": "now-drupal",
-  "version": "0.0.1",
+  "version": "0.0.70",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,10 +17,16 @@
   },
   "homepage": "https://github.com/sebas5384/now-drupal#readme",
   "devDependencies": {
-    "eslint": "^5.11.1"
+    "eslint": "^5.11.1",
+    "eslint-config-taller": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-standard": "^4.0.0"
   },
   "dependencies": {
-    "php-bridge-extra": "^0.4.13-canary.0"
+    "child_process": "^1.0.2",
+    "fs-extra": "^7.0.1",
+    "php-bridge-extra": "0.4.13-canary.25"
   },
   "peerDependencies": {
     "@now/build-utils": "^0.4.31"
